@@ -12,29 +12,52 @@ knit        : slidify::knit2slides
 ---
 
 ## What do you need?
-<p style="font-size:100px"><center>Metric to British unit conversion!</center></p>
+<H3><center>Metric to British unit conversion!</center></H3>
 
 <br><br><br>
 
 <H2>What do you need even more?</H2>
-<H1><center>British to metric unit conversion!</center></H1>
-
-
----
-
-## Slide 3
+<H3><center>British to metric unit conversion!</center></H3>
 
 ---
 
-## Slide 4
+## Where do you get it?
+
+<a href="https://roster1972.shinyapps.io/DataProductsCourseProject/">roster1972.shinyapps.io/DataProductsCourseProject/</a>
 
 ---
 
-## Slide 5
+## How does it work?
+
+* Put the value you want to convert in a box on the left . . .
+* Press 'Submit' at the bottom of the page . . .
+* And the converted value will magically appear in the box on the right!
 
 ---
 
+## The MAGIC of R . . .
+
+Check it out!  Some embedded R code that does one of these very useful conversions . . . 
 
 
+```r
+inputkm <- 10.0
+outputmiles <- inputkm * 0.6214
+outputmiles
+```
 
+```
+## [1] 6.214
+```
+And in reverse . . .
 
+```r
+outputkm <- outputmiles * 1.609
+outputkm
+```
+
+```
+## [1] 9.998326
+```
+
+---
