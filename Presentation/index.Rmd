@@ -1,0 +1,42 @@
+---
+title       : Data Products Course Project
+subtitle    : Reproducible Pitch
+author      : Robert Osterried
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## What do you need?
+<H3><center>Metric to British unit conversion!</center></H3>
+
+<br><br><br>
+
+<H2>What do you need even more?</H2>
+<H1><center>British to metric unit conversion!</center></H1>
+
+
+---
+
+## Where do you get it?
+
+<a href="http://www.yahoo.com">here</a>
+
+---
+
+## Slide 4
+
+---
+
+## Slide 5
+
+---
+
+
+
+
+
